@@ -1,0 +1,591 @@
+# Translation of Development (trunk) in Portuguese (Portugal)
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSiteSync\n"
+"POT-Creation-Date: 2016-10-08 23:32+0100\n"
+"PO-Revision-Date: 2016-10-08 23:32+0100\n"
+"Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
+"Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-WPHeader: wpsitesynccontent.php\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin.php:45
+#, php-format
+msgid "You just installed WPSiteSync for Content and it needs to be configured. Please go to the <a href=\"%s\">WPSiteSync for Content Settings page</a>."
+msgstr "Acabou de instalar o WPSiteSync for Content e agora tem que o configurar. Por favor vá à <a href=\"%s\">página das opções do WPSiteSync for Content</a>."
+
+#: classes/admin.php:94
+msgid "WPSiteSync logo"
+msgstr "Logótipo de WPSiteSync"
+
+#. Plugin Name of the plugin/theme
+#: classes/admin.php:94
+msgid "WPSiteSync for Content"
+msgstr "WPSiteSync for Content"
+
+#: classes/admin.php:113
+#, php-format
+msgid "WPSiteSync for Content has invalid or missing settings. Please go the the <a href=\"%s\">settings page</a> to update the configuration."
+msgstr "O WPSiteSync for Content tem opções inválidas ou em falta. Por favor vá à <a href=\"%s\">página das opções</a> para actualizar a configuração."
+
+#: classes/admin.php:122
+msgid "Push content to Target: "
+msgstr "Enviar conteúdo para Destino:"
+
+#: classes/admin.php:125
+msgid "The \"Target\" is the WordPress install that the Content will be pushed to."
+msgstr "O \"Destino\" é a instalação WordPress para onde o conteúdo será enviado."
+
+#: classes/admin.php:131
+msgid "Show Content details from Target"
+msgstr "Mostrar detalhes do conteúdo em Destino"
+
+#: classes/admin.php:160
+msgid "Push this Content to the Target site"
+msgstr "Enviar este conteúdo para o site de Destino"
+
+#: classes/admin.php:163
+msgid "Push to Target"
+msgstr "Enviar para Destino"
+
+#: classes/admin.php:169
+msgid "Pull this Content from the Target site"
+msgstr "Obter este conteúdo do site de Destino"
+
+#: classes/admin.php:171
+msgid "Pull from Target"
+msgstr "Obter de Destino"
+
+#: classes/admin.php:185 classes/ajax.php:147
+msgid "Content successfully sent to Target system."
+msgstr "Conteúdo enviado com sucesso para o sistema de Destino."
+
+#: classes/admin.php:187
+msgid "Please activate the Pull extension."
+msgstr "Por favor active a extensão Pull."
+
+#: classes/admin.php:193
+msgid "Pushing Content to Target..."
+msgstr "A enviar conteúdo para Destino..."
+
+#: classes/admin.php:194
+msgid "Please UPDATE your changes in order to Sync."
+msgstr "Por favor ACTUALIZE as alterações para poder sincronizar."
+
+#: classes/admin.php:206
+msgid "Settings"
+msgstr "Opções"
+
+#: classes/admin.php:237
+msgid "This Content has not yet been Sync'd. No details to show."
+msgstr "Este conteúdo ainda não foi sincronizado. Sem detalhes para mostrar."
+
+#: classes/admin.php:264
+#, php-format
+msgid "Error #%1$d: %2$s"
+msgstr "Erro #%1$d: %2$s"
+
+#: classes/admin.php:291
+msgid "Error obtaining Content Details"
+msgstr "Ocorreu um erro ao obter detalhes do conteúdo"
+
+#: classes/ajax.php:67
+msgid "License Key status: "
+msgstr "Estado da chave da licença:"
+
+#: classes/ajax.php:89
+#, php-format
+msgid "Method `%s` not found."
+msgstr "Método `%s` não encontrado."
+
+#: classes/apimodel.php:128
+#, php-format
+msgid "Cannot call your callback: %s"
+msgstr "Não é possível chamar o seu callback: %s"
+
+#: classes/apirequest.php:858
+msgid "Unable to connect to Target site."
+msgstr "Não é possível ligar ao site de Destino."
+
+#: classes/apirequest.php:859
+msgid "The requested action is not recognized"
+msgstr "O pedido não é reconhecido"
+
+#: classes/apirequest.php:860
+msgid "WPSiteSync for Content is not installed and activated on Target site."
+msgstr "O WPSiteSync for Content não está instalado e activado no site de Destino."
+
+#: classes/apirequest.php:861
+msgid "Unable to authenticate on Target site."
+msgstr "Não é possível autenticar no site de Destino."
+
+#: classes/apirequest.php:862
+msgid "User session has expired."
+msgstr "A sessão do utilizador expirou."
+
+#: classes/apirequest.php:863
+msgid "A user is currently editing this Content on the Target site."
+msgstr "Um utilizador está neste momento a editar este conteúdo no site de Destino."
+
+#: classes/apirequest.php:864
+msgid "This Content is currently Locked on Target site."
+msgstr "Este conteúdo está neste momento bloqueado no site de Destino."
+
+#: classes/apirequest.php:865
+msgid "Some or all of the data for the request is missing."
+msgstr "Alguns ou todos os dados em falta para o pedido."
+
+#: classes/apirequest.php:866
+msgid "The username does not exist on the Target site."
+msgstr "O nome de utilizador não existe no site de Destino."
+
+#: classes/apirequest.php:867
+msgid "Error while handling file upload."
+msgstr "Ocorreu um erro ao carregar ficheiro."
+
+#: classes/apirequest.php:868
+msgid "The Permalink settings are different on the Target site."
+msgstr "As opções das ligações permanentes são diferentes no site de Destino."
+
+#: classes/apirequest.php:869
+msgid "The WordPress versions are different on the Source and Target sites."
+msgstr "As versões do WordPress são diferentes nos sites de Origem e de Destino."
+
+#: classes/apirequest.php:870
+msgid "The SYNC versions are different on the Source and Target sites."
+msgstr "As versões de sincronização são diferentes nos sites de Origem e de Destino."
+
+#: classes/apirequest.php:871
+msgid "The required SYNC extension is not active on the Target site."
+msgstr "A extensão necessária não está activa no site de Destino."
+
+#: classes/apirequest.php:872
+msgid "The post type is not allowed."
+msgstr "O tipo de conteúdo não é permitido."
+
+#: classes/apirequest.php:873
+msgid "Unable to make API request to Target system."
+msgstr "Não é possível fazer o pedido de API no sistema de Destino."
+
+#: classes/apirequest.php:874
+msgid "Target system did not respond with success code."
+msgstr "O sistema de Destino não respondeu com código de sucesso."
+
+#: classes/apirequest.php:875
+msgid "Site Key for Target system has not been obtained."
+msgstr "Não foi obtida a chave do site do sistema de Destino."
+
+#: classes/apirequest.php:876
+msgid "Unable to determine post content."
+msgstr "Não é possível determinar o conteúdo do artigo."
+
+#: classes/apirequest.php:877
+msgid "Unable to validate AJAX request."
+msgstr "Não é possível validar o pedido AJAX."
+
+#: classes/apirequest.php:878
+msgid "Content has a Parent Page that has not been Sync'd."
+msgstr "O conteúdo tem uma página superior que não foi sincronizada."
+
+#: classes/apirequest.php:879
+msgid "Unable to authentication with Target site. Please re-enter credentials for this site."
+msgstr "Não é possível autenticar no site de Destino. Por favor insira de novo as credenciais deste site."
+
+#: classes/apirequest.php:880
+msgid "You do not have permission to do this. Check configured user on Target."
+msgstr "Não tem permissão para fazer isto. Verifique o utilizador configurado em Destino."
+
+#: classes/apirequest.php:881
+msgid "The image uploaded is not a valid image type."
+msgstr "A imagem carregada não é um tipo de imagem válido."
+
+#: classes/apirequest.php:882
+msgid "Requested post cannot be found."
+msgstr "O artigo pedido não foi encontrado."
+
+#: classes/apirequest.php:883
+msgid "Content update on Target failed."
+msgstr "Falhou ao actualizar conteúdo no Destino."
+
+#: classes/apirequest.php:886
+#, php-format
+msgid "Unrecognized error: %d"
+msgstr "Erro desconhecido: %d"
+
+#: classes/apirequest.php:902
+msgid "The file name already exists."
+msgstr "O nome do ficheiro já existe."
+
+#: classes/apirequest.php:903
+msgid "Content Synchronized."
+msgstr "Conteúdo sincronizado."
+
+#: classes/apirequest.php:904
+msgid "Internal error:"
+msgstr "Erro interno:"
+
+#: classes/apirequest.php:907
+#, php-format
+msgid "Unknown action; code: %d"
+msgstr "Acção desconhecida, código: %d"
+
+#: classes/extensionsettings.php:43
+#, php-format
+msgid "%1$d extensions found."
+msgstr "%1$d extensões encontradas."
+
+#: classes/licensesettings.php:29
+msgid "WPSiteSync Add-on Licenses:"
+msgstr "Licenças de add-ons de WPSiteSync:"
+
+#: classes/licensesettings.php:38
+msgid "No extensions are currently activated."
+msgstr "Nenhuma extensão activada neste momento."
+
+#: classes/licensesettings.php:52
+#, php-format
+msgid "%s License Key:"
+msgstr "Chave de licença de %s:"
+
+#: classes/licensesettings.php:61
+#, php-format
+msgid "License key for the %1$s v%2$s add-on"
+msgstr "Chave de licença para o add-on %1$s v%2$s"
+
+#: classes/licensesettings.php:74
+msgid "License keys are required to activate add-on's functionality and to be notified of updates."
+msgstr "São necessárias as chaves da licença para activar as funcionalidades do add-on e para receber notificações sobre actualizações."
+
+#: classes/licensesettings.php:102
+msgid "Status: "
+msgstr "Estado:"
+
+#: classes/licensesettings.php:107
+msgid "Activate"
+msgstr "Activar"
+
+#: classes/licensesettings.php:112
+msgid "Dectivate"
+msgstr "Desactivar"
+
+#: classes/licensesettings.php:124
+msgid "Activating License Key..."
+msgstr "A activar chave da licença..."
+
+#: classes/licensesettings.php:125
+msgid "Deactivating License Key..."
+msgstr "A desactivar chave da licença..."
+
+#: classes/licensing.php:131
+msgid "unknown"
+msgstr "desconhecido"
+
+#: classes/licensing.php:133
+msgid "active"
+msgstr "activa"
+
+#: classes/licensing.php:135
+msgid "inactive"
+msgstr "inactiva"
+
+#: classes/licensing.php:137
+msgid "expired"
+msgstr "expirou"
+
+#: classes/licensing.php:140
+msgid "unset"
+msgstr "não definida"
+
+#: classes/licensing.php:225
+msgid "Activated"
+msgstr "Activada"
+
+#: classes/licensing.php:231
+msgid "Inactive License"
+msgstr "Licença inactiva"
+
+#: classes/licensing.php:237 classes/licensing.php:388
+msgid "Unknown API result: "
+msgstr "Resultado desconhecido da API"
+
+#: classes/licensing.php:244
+msgid "Invalid License Key"
+msgstr "Chave de licença inválida"
+
+#: classes/licensing.php:378
+msgid "Deactivated"
+msgstr "Desactivada"
+
+#: classes/licensing.php:383
+msgid "Error deactivating License."
+msgstr "Ocorreu um erro ao desactivar licença."
+
+#: classes/licensing.php:393
+msgid "Unexpected API response"
+msgstr "Resposta inesperada da API"
+
+#: classes/settings.php:59
+msgid "WPSiteSync for Content Settings"
+msgstr "Opções de WPSiteSync for Content"
+
+#: classes/settings.php:60
+msgid "WPSiteSync&#8482;"
+msgstr "WPSiteSync&#8482;"
+
+#: classes/settings.php:93 classes/settings.php:596
+msgid "General"
+msgstr "Geral"
+
+#: classes/settings.php:94
+msgid "General Settings for WPSiteSync for Content"
+msgstr "Opções gerais do WPSiteSync for Content"
+
+#: classes/settings.php:105
+msgid "Licenses"
+msgstr "Licenças"
+
+#: classes/settings.php:106
+msgid "License Key for WPSiteSync add-ons"
+msgstr "Chave de licença para add-ons de WPSiteSync"
+
+#: classes/settings.php:152
+msgid "Error: no settings available"
+msgstr "Erro: nenhuma opção disponível"
+
+#: classes/settings.php:159
+msgid "WPSiteSync for Content Site key: "
+msgstr "Chave do site de WPSiteSync for Content: "
+
+#: classes/settings.php:228
+msgid "WPSiteSync for Content - Configuration:"
+msgstr "WPSiteSync for Content - Configuração:"
+
+#: classes/settings.php:235
+msgid "Host Name of Target:"
+msgstr "Nome do Destino:"
+
+#: classes/settings.php:244
+msgid "http://example.com - This is the URL that your Content will be Pushed to."
+msgstr "http://exemplo.com - Isto é o URL para onde o seu conteúdo será enviado."
+
+#: classes/settings.php:250
+msgid "Username on Target:"
+msgstr "Nome de utilizador em Destino:"
+
+#: classes/settings.php:258
+msgid "Username on Target for authentication. Must be able to create Content with this username."
+msgstr "Nome de utilizador em Destino para autenticação. Tem que ser possível criar conteúdos com este nome de utilizador."
+
+#: classes/settings.php:271
+msgid "Password on Target:"
+msgstr "Senha em Destino:"
+
+#: classes/settings.php:280
+msgid "Password for the Username on the Target. "
+msgstr "Senha para o nome de utilizador no site de Destino. "
+
+#: classes/settings.php:281
+msgid "Username and Password are valid."
+msgstr "Nome de utilizador e senha válidos."
+
+#: classes/settings.php:282
+msgid "Username and Password not entered or not valid."
+msgstr "Nome de utilizador e senha não inseridos ou inválidos."
+
+#: classes/settings.php:289
+msgid "WPSiteSync for Content - Behaviors:"
+msgstr "WPSiteSync for Content - Comportamento:"
+
+#: classes/settings.php:296
+msgid "Strict Mode:"
+msgstr "Modo estrito:"
+
+#: classes/settings.php:304
+msgid "On - WordPress and WPSiteSync for Content versions must match on Source and Target in order to perform operations."
+msgstr "Ligado - As versões do WordPress e do WPSiteSync for Content têm que corresponder exactamente entre os sites de Origem e de Destino, para poder executar as operações."
+
+#: classes/settings.php:305
+msgid "Off - WordPress and WPSiteSync for Content versions do not need to match."
+msgstr "Desligado - As versões do WordPress e do WPSiteSync for Content não têm que corresponder."
+
+#: classes/settings.php:344
+msgid "Optionally remove Settings and Tables on plugin deactivation:"
+msgstr "Remover as opções e tabelas ao desactivar plugin:"
+
+#: classes/settings.php:352
+msgid "Yes, remove all settings and data on uninstall."
+msgstr "Sim, remover todas as opções e dados ao desinstalar."
+
+#: classes/settings.php:353
+msgid "No, leave settings and data on uninstall."
+msgstr "Não, manter as opções e dados ao desinstalar."
+
+#: classes/settings.php:458
+msgid "Settings authenticated on Target server"
+msgstr "Opções autenticadas no servidor de Destino"
+
+#: classes/settings.php:460
+msgid "Settings do not authenticate on Target server"
+msgstr "Opções não autenticadas no servidor de Destino"
+
+#: classes/settings.php:494
+msgid "Invalid URL."
+msgstr "URL inválido."
+
+#: classes/settings.php:503
+msgid "All fields are required."
+msgstr "Todos os campos são obrigatórios."
+
+#: classes/settings.php:522
+msgid "Changed Host Name of Target or Username but did not provide password."
+msgstr "Foi alterado o nome do Destino ou nome de utilizador, mas não inseriu a respectiva senha."
+
+#: classes/settings.php:584
+msgid "For more information:"
+msgstr "Para mais informações:"
+
+#: classes/settings.php:585
+#, php-format
+msgid "Visit the <a href=\"%s\" target=\"_blank\">documentation</a> on the WPSiteSync for Content website."
+msgstr "Visite a <a href=\"%s\" target=\"_blank\">documentação</a> no site do WPSiteSync for Content."
+
+#: classes/settings.php:588
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Post an issue</a> on <a href=\"%s\" target=\"_blank\">GitHub</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">Publique um problema</a> no <a href=\"%s\" target=\"_blank\">GitHub</a>."
+
+#: classes/settings.php:598
+msgid "This page allows you to configure how WPSiteSync for Content behaves."
+msgstr "Esta página permite-lhe configurar o comportamento do WPSiteSync for Content."
+
+#: classes/settings.php:599
+msgid "<strong>Host Name of Target</strong>: Enter the URL of the Target website you wish to Sync with."
+msgstr "<strong>Nome do Destino</strong>: Insira o URL do site de Destino com que pretende sincronizar."
+
+#: classes/settings.php:600
+msgid "<strong>Username on Target</strong>: Enter the Administrator username for the Target website."
+msgstr "<strong>Nome de utilizador de Destino</strong>: Insira o nome de utilizador do administrador do site de Destino."
+
+#: classes/settings.php:601
+msgid "<strong>Password on Target</strong>: Enter the Administrator password for the Target website."
+msgstr "<strong>Senha de Destino</strong>: Insira a senha do administrador do site de Destino."
+
+#: classes/settings.php:602
+msgid "<strong>Strict Mode:</strong>: Select if WordPress and WPSiteSync for Content should be the same versions on the Source and the Target."
+msgstr "<strong>Modo estrito</strong>: Escolha se o WordPress e o WPSiteSync for Content deverão ter as mesmas versões nos sites de Origem e de Destino."
+
+#: classes/settings.php:608
+msgid "Terms/Definitions"
+msgstr "Terminologia"
+
+#: classes/settings.php:610
+msgid "<b>Source</b> - The website that Content is being Syncd from. This is the non-authority or development/staging site."
+msgstr "<b>Origem</b> - O site de onde o conteúdo é sincronizado. Este é o site não autorizado ou de desenvolvimento/staging."
+
+#: classes/settings.php:611
+msgid "<b>Target</b> - The website that you will be Pushing/Syncing Content to. This is the authoritative or live site."
+msgstr "<b>Destino</b> - O site para onde envia o conteúdo. Este é o site autorizado ou de produção."
+
+#: classes/settings.php:612
+msgid "<b>Push</b> - Moving Content from the Source to the Target website."
+msgstr "<b>Enviar</b> - Mover conteúdo do site de Origem para o de Destino."
+
+#: classes/settings.php:613
+msgid "<b>Pull</b> - Moving Content from the Target to the Source website."
+msgstr "<b>Obter</b> - Mover conteúdo do site de Destino para o de Origem."
+
+#: classes/settings.php:614
+msgid "<b>Content</b> - The data that is being Syncd between websites. This can be Posts, Pages or Custom Post Types, User Information, Comments, and more, depending on the Sync Add-ons that you have installed."
+msgstr "<b>Conteúdo</b> - Os dados que são sincronizados entre sites. Podem ser artigos, páginas, tipos de conteúdo personalizados, informações de utilizador, comentários ou outros, dependendo dos add-ons de sincronização instalados."
+
+#: classes/settings.php:627
+#, php-format
+msgid "Thank you for using <a href=\"%1$s\" target=\"_blank\">WPSiteSync for Content</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+msgstr "Obrigado por utilizar o <a href=\"%1$s\" target=\"_blank\">WPSiteSync for Content</a>! Por favor <a href=\"%2$s\" target=\"_blank\">classifique-nos</a> em <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+
+#: classes/sourcesmodel.php:61
+msgid "Token validation failed."
+msgstr "Falhou ao validar token."
+
+#: install/pluginupdater.php:135
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Está disponível uma nova versão de %1$s. %2$sVer detalhes da versão %3$s%4$s."
+
+#: install/pluginupdater.php:143
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr "Está disponível uma nova versão de %1$s. %2$sVer detalhes da versão %3$s%4$s ou %5$sactualize agora%6$s."
+
+#: install/pluginupdater.php:253
+msgid "You do not have permission to install plugin updates"
+msgstr "Não tem permissão para instalar actualizações do plugin"
+
+#: install/pluginupdater.php:253
+msgid "Error"
+msgstr "﻿Erro"
+
+#: views/content_details.php:2
+msgid "Content Details:"
+msgstr "Detalhes do conteúdo:"
+
+#: views/content_details.php:4
+#, php-format
+msgid "Target Content Id: %d"
+msgstr "ID do conteúdo em Destino: %d"
+
+#: views/content_details.php:5
+#, php-format
+msgid "Content Title: %s"
+msgstr "Título do conteúdo: %s"
+
+#: views/content_details.php:6
+#, php-format
+msgid "Content Author: %s"
+msgstr "Autor do conteúdo: %s"
+
+#: views/content_details.php:7
+#, php-format
+msgid "Last Modified: %s"
+msgstr "Última modificação: %s"
+
+#: views/content_details.php:9
+#, php-format
+msgid "Content: %s"
+msgstr "Conteúdo: %s"
+
+#: views/content_details.php:12
+msgid "Note: Syncing this Content will overwrite data."
+msgstr "Atenção: Sincronizar este conteúdo vai substituir os respectivos dados."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpsitesync.com"
+msgstr "https://wpsitesync.com"
+
+#. Description of the plugin/theme
+msgid "Provides features for easily Synchronizing Content between two WordPress sites."
+msgstr "Adiciona funcionalidades para facilmente sincronizar conteúdos entre dois sites WordPress."
+
+#. Author of the plugin/theme
+msgid "WPSiteSync"
+msgstr "WPSiteSync"
+
+#. Author URI of the plugin/theme
+msgid "http://wpsitesync.com"
+msgstr "http://wpsitesync.com"
+
+#~ msgid "Coming soon in Premium Membership!"
+#~ msgstr "Brevemente para utilizadores Premium!"
+
+#~ msgid "Username on Target to authenticate API calls with. Must be able to create Content with this username."
+#~ msgstr "Nome de utilizador em Destino para autenticar chamadas de API. Tem que ser possível criar conteúdos com este nome de utilizador."
