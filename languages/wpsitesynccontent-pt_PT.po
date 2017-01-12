@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WPSiteSync\n"
-"POT-Creation-Date: 2016-10-08 23:32+0100\n"
-"PO-Revision-Date: 2016-10-08 23:32+0100\n"
+"POT-Creation-Date: 2017-01-12 09:29+0000\n"
+"PO-Revision-Date: 2017-01-12 09:36+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -113,128 +113,136 @@ msgstr "Método `%s` não encontrado."
 msgid "Cannot call your callback: %s"
 msgstr "Não é possível chamar o seu callback: %s"
 
-#: classes/apirequest.php:858
+#: classes/apirequest.php:918
 msgid "Unable to connect to Target site."
 msgstr "Não é possível ligar ao site de Destino."
 
-#: classes/apirequest.php:859
-msgid "The requested action is not recognized"
-msgstr "O pedido não é reconhecido"
+#: classes/apirequest.php:919
+msgid "The requested action is not recognized. Is plugin activated on Target?"
+msgstr "O pedido não é reconhecido. O plugin está activado no Destino?"
 
-#: classes/apirequest.php:860
+#: classes/apirequest.php:920
 msgid "WPSiteSync for Content is not installed and activated on Target site."
 msgstr "O WPSiteSync for Content não está instalado e activado no site de Destino."
 
-#: classes/apirequest.php:861
+#: classes/apirequest.php:921
 msgid "Unable to authenticate on Target site."
 msgstr "Não é possível autenticar no site de Destino."
 
-#: classes/apirequest.php:862
+#: classes/apirequest.php:922
 msgid "User session has expired."
 msgstr "A sessão do utilizador expirou."
 
-#: classes/apirequest.php:863
+#: classes/apirequest.php:923
 msgid "A user is currently editing this Content on the Target site."
 msgstr "Um utilizador está neste momento a editar este conteúdo no site de Destino."
 
-#: classes/apirequest.php:864
+#: classes/apirequest.php:924
 msgid "This Content is currently Locked on Target site."
 msgstr "Este conteúdo está neste momento bloqueado no site de Destino."
 
-#: classes/apirequest.php:865
+#: classes/apirequest.php:925
 msgid "Some or all of the data for the request is missing."
 msgstr "Alguns ou todos os dados em falta para o pedido."
 
-#: classes/apirequest.php:866
+#: classes/apirequest.php:926
 msgid "The username does not exist on the Target site."
 msgstr "O nome de utilizador não existe no site de Destino."
 
-#: classes/apirequest.php:867
+#: classes/apirequest.php:927
 msgid "Error while handling file upload."
 msgstr "Ocorreu um erro ao carregar ficheiro."
 
-#: classes/apirequest.php:868
+#: classes/apirequest.php:928
 msgid "The Permalink settings are different on the Target site."
 msgstr "As opções das ligações permanentes são diferentes no site de Destino."
 
-#: classes/apirequest.php:869
+#: classes/apirequest.php:929
 msgid "The WordPress versions are different on the Source and Target sites."
 msgstr "As versões do WordPress são diferentes nos sites de Origem e de Destino."
 
-#: classes/apirequest.php:870
+#: classes/apirequest.php:930
 msgid "The SYNC versions are different on the Source and Target sites."
 msgstr "As versões de sincronização são diferentes nos sites de Origem e de Destino."
 
-#: classes/apirequest.php:871
+#: classes/apirequest.php:931
 msgid "The required SYNC extension is not active on the Target site."
 msgstr "A extensão necessária não está activa no site de Destino."
 
-#: classes/apirequest.php:872
+#: classes/apirequest.php:932
 msgid "The post type is not allowed."
 msgstr "O tipo de conteúdo não é permitido."
 
-#: classes/apirequest.php:873
+#: classes/apirequest.php:933
 msgid "Unable to make API request to Target system."
 msgstr "Não é possível fazer o pedido de API no sistema de Destino."
 
-#: classes/apirequest.php:874
+#: classes/apirequest.php:934
 msgid "Target system did not respond with success code."
 msgstr "O sistema de Destino não respondeu com código de sucesso."
 
-#: classes/apirequest.php:875
+#: classes/apirequest.php:935
 msgid "Site Key for Target system has not been obtained."
 msgstr "Não foi obtida a chave do site do sistema de Destino."
 
-#: classes/apirequest.php:876
+#: classes/apirequest.php:936
 msgid "Unable to determine post content."
 msgstr "Não é possível determinar o conteúdo do artigo."
 
-#: classes/apirequest.php:877
+#: classes/apirequest.php:937
 msgid "Unable to validate AJAX request."
 msgstr "Não é possível validar o pedido AJAX."
 
-#: classes/apirequest.php:878
+#: classes/apirequest.php:938
 msgid "Content has a Parent Page that has not been Sync'd."
 msgstr "O conteúdo tem uma página superior que não foi sincronizada."
 
-#: classes/apirequest.php:879
+#: classes/apirequest.php:939
 msgid "Unable to authentication with Target site. Please re-enter credentials for this site."
 msgstr "Não é possível autenticar no site de Destino. Por favor insira de novo as credenciais deste site."
 
-#: classes/apirequest.php:880
-msgid "You do not have permission to do this. Check configured user on Target."
-msgstr "Não tem permissão para fazer isto. Verifique o utilizador configurado em Destino."
+#: classes/apirequest.php:940
+msgid "User does not have permission to perform Sync. Check configured user on Target."
+msgstr "O utilizador não tem permissão para sincronizar. Verifique o utilizador configurado no Destino."
 
-#: classes/apirequest.php:881
+#: classes/apirequest.php:941
 msgid "The image uploaded is not a valid image type."
 msgstr "A imagem carregada não é um tipo de imagem válido."
 
-#: classes/apirequest.php:882
+#: classes/apirequest.php:942
 msgid "Requested post cannot be found."
 msgstr "O artigo pedido não foi encontrado."
 
-#: classes/apirequest.php:883
+#: classes/apirequest.php:943
 msgid "Content update on Target failed."
 msgstr "Falhou ao actualizar conteúdo no Destino."
 
-#: classes/apirequest.php:886
+#: classes/apirequest.php:944
+msgid "Cannot write authentication token."
+msgstr "Não é possível gravar o token de autorização."
+
+#: classes/apirequest.php:945
+msgid "Attachment upload failed. No content found; is there a broken link?"
+msgstr "Falhou ao carregar anexo. Nenhum conteúdo encontrado, terá uma ligação danificada?"
+
+#: classes/apirequest.php:948
 #, php-format
 msgid "Unrecognized error: %d"
 msgstr "Erro desconhecido: %d"
 
-#: classes/apirequest.php:902
+#: classes/apirequest.php:964
 msgid "The file name already exists."
 msgstr "O nome do ficheiro já existe."
 
-#: classes/apirequest.php:903
+#: classes/apirequest.php:965
 msgid "Content Synchronized."
 msgstr "Conteúdo sincronizado."
 
-#: classes/apirequest.php:904
+#: classes/apirequest.php:966
 msgid "Internal error:"
 msgstr "Erro interno:"
 
-#: classes/apirequest.php:907
+#: classes/apirequest.php:969
 #, php-format
 msgid "Unknown action; code: %d"
 msgstr "Acção desconhecida, código: %d"
@@ -286,51 +294,51 @@ msgstr "A activar chave da licença..."
 msgid "Deactivating License Key..."
 msgstr "A desactivar chave da licença..."
 
-#: classes/licensing.php:131
+#: classes/licensing.php:170
 msgid "unknown"
 msgstr "desconhecido"
 
-#: classes/licensing.php:133
+#: classes/licensing.php:172
 msgid "active"
 msgstr "activa"
 
-#: classes/licensing.php:135
+#: classes/licensing.php:174
 msgid "inactive"
 msgstr "inactiva"
 
-#: classes/licensing.php:137
+#: classes/licensing.php:176
 msgid "expired"
 msgstr "expirou"
 
-#: classes/licensing.php:140
+#: classes/licensing.php:179
 msgid "unset"
 msgstr "não definida"
 
-#: classes/licensing.php:225
+#: classes/licensing.php:267
 msgid "Activated"
 msgstr "Activada"
 
-#: classes/licensing.php:231
+#: classes/licensing.php:273
 msgid "Inactive License"
 msgstr "Licença inactiva"
 
-#: classes/licensing.php:237 classes/licensing.php:388
+#: classes/licensing.php:279 classes/licensing.php:433
 msgid "Unknown API result: "
 msgstr "Resultado desconhecido da API"
 
-#: classes/licensing.php:244
+#: classes/licensing.php:286
 msgid "Invalid License Key"
 msgstr "Chave de licença inválida"
 
-#: classes/licensing.php:378
+#: classes/licensing.php:423
 msgid "Deactivated"
 msgstr "Desactivada"
 
-#: classes/licensing.php:383
+#: classes/licensing.php:428
 msgid "Error deactivating License."
 msgstr "Ocorreu um erro ao desactivar licença."
 
-#: classes/licensing.php:393
+#: classes/licensing.php:438
 msgid "Unexpected API response"
 msgstr "Resposta inesperada da API"
 
@@ -342,7 +350,7 @@ msgstr "Opções de WPSiteSync for Content"
 msgid "WPSiteSync&#8482;"
 msgstr "WPSiteSync&#8482;"
 
-#: classes/settings.php:93 classes/settings.php:596
+#: classes/settings.php:93 classes/settings.php:601
 msgid "General"
 msgstr "Geral"
 
@@ -450,65 +458,70 @@ msgstr "Todos os campos são obrigatórios."
 msgid "Changed Host Name of Target or Username but did not provide password."
 msgstr "Foi alterado o nome do Destino ou nome de utilizador, mas não inseriu a respectiva senha."
 
-#: classes/settings.php:584
+#: classes/settings.php:542
+#, php-format
+msgid "Error authenticating user on Target: %s"
+msgstr "Ocorreu um erro ao autenticar o utilizador no Destino: %s"
+
+#: classes/settings.php:589
 msgid "For more information:"
 msgstr "Para mais informações:"
 
-#: classes/settings.php:585
+#: classes/settings.php:590
 #, php-format
 msgid "Visit the <a href=\"%s\" target=\"_blank\">documentation</a> on the WPSiteSync for Content website."
 msgstr "Visite a <a href=\"%s\" target=\"_blank\">documentação</a> no site do WPSiteSync for Content."
 
-#: classes/settings.php:588
+#: classes/settings.php:593
 #, php-format
-msgid "<a href=\"%s\" target=\"_blank\">Post an issue</a> on <a href=\"%s\" target=\"_blank\">GitHub</a>."
-msgstr "<a href=\"%s\" target=\"_blank\">Publique um problema</a> no <a href=\"%s\" target=\"_blank\">GitHub</a>."
+msgid "<a href=\"%1$s\" target=\"_blank\">Post an issue</a> on <a href=\"%2$s\" target=\"_blank\">GitHub</a>."
+msgstr "<a href=\"%1$s\" target=\"_blank\">Publique um problema</a> no <a href=\"%2$s\" target=\"_blank\">GitHub</a>."
 
-#: classes/settings.php:598
+#: classes/settings.php:603
 msgid "This page allows you to configure how WPSiteSync for Content behaves."
 msgstr "Esta página permite-lhe configurar o comportamento do WPSiteSync for Content."
 
-#: classes/settings.php:599
+#: classes/settings.php:604
 msgid "<strong>Host Name of Target</strong>: Enter the URL of the Target website you wish to Sync with."
 msgstr "<strong>Nome do Destino</strong>: Insira o URL do site de Destino com que pretende sincronizar."
 
-#: classes/settings.php:600
+#: classes/settings.php:605
 msgid "<strong>Username on Target</strong>: Enter the Administrator username for the Target website."
 msgstr "<strong>Nome de utilizador de Destino</strong>: Insira o nome de utilizador do administrador do site de Destino."
 
-#: classes/settings.php:601
+#: classes/settings.php:606
 msgid "<strong>Password on Target</strong>: Enter the Administrator password for the Target website."
 msgstr "<strong>Senha de Destino</strong>: Insira a senha do administrador do site de Destino."
 
-#: classes/settings.php:602
+#: classes/settings.php:607
 msgid "<strong>Strict Mode:</strong>: Select if WordPress and WPSiteSync for Content should be the same versions on the Source and the Target."
 msgstr "<strong>Modo estrito</strong>: Escolha se o WordPress e o WPSiteSync for Content deverão ter as mesmas versões nos sites de Origem e de Destino."
 
-#: classes/settings.php:608
+#: classes/settings.php:613
 msgid "Terms/Definitions"
 msgstr "Terminologia"
 
-#: classes/settings.php:610
+#: classes/settings.php:615
 msgid "<b>Source</b> - The website that Content is being Syncd from. This is the non-authority or development/staging site."
 msgstr "<b>Origem</b> - O site de onde o conteúdo é sincronizado. Este é o site não autorizado ou de desenvolvimento/staging."
 
-#: classes/settings.php:611
+#: classes/settings.php:616
 msgid "<b>Target</b> - The website that you will be Pushing/Syncing Content to. This is the authoritative or live site."
 msgstr "<b>Destino</b> - O site para onde envia o conteúdo. Este é o site autorizado ou de produção."
 
-#: classes/settings.php:612
+#: classes/settings.php:617
 msgid "<b>Push</b> - Moving Content from the Source to the Target website."
 msgstr "<b>Enviar</b> - Mover conteúdo do site de Origem para o de Destino."
 
-#: classes/settings.php:613
+#: classes/settings.php:618
 msgid "<b>Pull</b> - Moving Content from the Target to the Source website."
 msgstr "<b>Obter</b> - Mover conteúdo do site de Destino para o de Origem."
 
-#: classes/settings.php:614
+#: classes/settings.php:619
 msgid "<b>Content</b> - The data that is being Syncd between websites. This can be Posts, Pages or Custom Post Types, User Information, Comments, and more, depending on the Sync Add-ons that you have installed."
 msgstr "<b>Conteúdo</b> - Os dados que são sincronizados entre sites. Podem ser artigos, páginas, tipos de conteúdo personalizados, informações de utilizador, comentários ou outros, dependendo dos add-ons de sincronização instalados."
 
-#: classes/settings.php:627
+#: classes/settings.php:632
 #, php-format
 msgid "Thank you for using <a href=\"%1$s\" target=\"_blank\">WPSiteSync for Content</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
 msgstr "Obrigado por utilizar o <a href=\"%1$s\" target=\"_blank\">WPSiteSync for Content</a>! Por favor <a href=\"%2$s\" target=\"_blank\">classifique-nos</a> em <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
@@ -583,6 +596,15 @@ msgstr "WPSiteSync"
 #. Author URI of the plugin/theme
 msgid "http://wpsitesync.com"
 msgstr "http://wpsitesync.com"
+
+#~ msgid "The requested action is not recognized"
+#~ msgstr "O pedido não é reconhecido"
+
+#~ msgid "You do not have permission to do this. Check configured user on Target."
+#~ msgstr "Não tem permissão para fazer isto. Verifique o utilizador configurado em Destino."
+
+#~ msgid "<a href=\"%s\" target=\"_blank\">Post an issue</a> on <a href=\"%s\" target=\"_blank\">GitHub</a>."
+#~ msgstr "<a href=\"%s\" target=\"_blank\">Publique um problema</a> no <a href=\"%s\" target=\"_blank\">GitHub</a>."
 
 #~ msgid "Coming soon in Premium Membership!"
 #~ msgstr "Brevemente para utilizadores Premium!"
